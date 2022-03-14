@@ -67,6 +67,9 @@ ul{
     display: flex;
     flex-wrap: wrap;
 }
+.heading {
+    padding: 10px 0px;
+}
 .info{
     width: 35%;
     text-align: inherit;
@@ -88,7 +91,7 @@ img{
 }
 .line{
     width: 50px;
-    border: 1px solid #666666;
+    border-top: 3px solid black;
     margin: 3px;
     display: inline-block;
 }
@@ -127,6 +130,13 @@ span.para {
 }
 .mb1{
     margin: 15px 5px;
+}
+.dot {
+    width: 4px;
+    border-top: 4px solid black;
+    margin: 3px;
+    display: inline-block;
+    border-radius: 4px;
 }
 @media screen and (max-width:1000px){
     .head {
